@@ -1,9 +1,9 @@
-pali = input("Это проверка слова на то, является ли он палиндромом? \n Введи сюда слово:")
-pali = pali.split(" ")
-print(pali)
-for x in pali:
-    pali2 = a[::-1].lower()
-    if a.lower() == pali2
-        print("Да, бро , это палиндром: ")
+pali = input("Эта программа может понять палиндром это или нет. \n Введи слово сюда")
+pali = pali.split()
+for a in range(len(pali)):
+    x1 = pali[a]
+    x2 = x1[::-1].lower()
+    if x1.lower() == x2:
+        print(pali[a], "это палиндром")
     else:
-        print("Нет, к сожалению не палиндром.")
+        print(pali[a], "это не палиндром")
