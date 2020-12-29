@@ -1,4 +1,5 @@
 import random
+import time
 
 player1 = 0
 player2 = 0
@@ -7,6 +8,8 @@ player3 = 0
 inGame1 = True
 inGame2 = True
 inGame3 = True
+
+inCompar = True
 
 while inGame1:
     print("*" * 50)
@@ -60,3 +63,13 @@ while inGame3:
                 inGame3 = False
                 player3 = False
 
+time.sleep(5)
+
+while inCompar:
+    print("-"*50, "\n Вычисляем победителей...")
+    time.sleep(3)
+    print(" Я бот Олег, я сканирую всех игроков")
+    time.sleep(3)
+    print(" И у нас победил....")
+    time.sleep(5)
+    inCompar = False
