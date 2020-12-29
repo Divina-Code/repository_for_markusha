@@ -4,6 +4,6 @@ for a in range(len(pali)):
     x1 = pali[a]
     x2 = x1[::-1].lower()
     if x1.lower() == x2:
-        print(pali[a], "это палиндром")
+        print(pali[a], "Твое слово палиндром.")
     else:
-        print(pali[a], "это не палиндром")
+        print(pali[a], "Твое слово не палиндром.")
